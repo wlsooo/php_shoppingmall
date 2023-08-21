@@ -1,0 +1,29 @@
+:root {
+    --body-font: 'Noto Sans KR', sans-serif;
+    --logo-font: 'Alfa Slab One', cursive;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-bold: 700;
+    --main-color: #00DE07;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    padding: 0 20px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+.nav-logo {
+    font-family: var(--logo-font);
+    font-size: 30px;
+}
+.nav-list {
+    display: flex;
+    gap: 150px;
+    font-size: 23px;
+}
+.nav-items {
+    font-size: 24px;
+}
