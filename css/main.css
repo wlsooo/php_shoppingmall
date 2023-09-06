@@ -29,8 +29,34 @@ main {
     font-size: 15px;
     font-weight: var(--font-light);
 }
-.more-button {
+.more-button > button{
     margin-top: 10px;
     border: 0;
-    margin-bottom: 500px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.trend-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 90px;
+}
+.trend-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.trend-img {
+    width: 200px;
+    height: 250px;
+    background-color: bisque;
+}
+.trend-text {
+    width: 200px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 100px;
 }
