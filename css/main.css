@@ -1,0 +1,36 @@
+:root {
+    --body-font: 'Noto Sans KR', sans-serif;
+    --logo-font: 'Alfa Slab One', cursive;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-bold: 700;
+}
+main {
+    font-family: var(--body-font);
+}
+.content-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 200px;
+    margin-top: 60px;
+}
+.circle-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    background-color: bisque;
+}
+.text1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.text2 {
+    font-size: 15px;
+    font-weight: var(--font-light);
+}
+.more-button {
+    margin-top: 10px;
+    border: 0;
+    margin-bottom: 500px;
+}

@@ -6,6 +6,9 @@
     --font-bold: 700;
     --main-color: #00D707;
 }
+body {
+    font-family: var(--body-font);
+}
 .nav-container {
     display: flex;
     justify-content: space-between;
