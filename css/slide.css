@@ -11,8 +11,7 @@
     width: 100%;
     top: calc(44px + 250px);
     padding: 0 30px;
-}
-.slide-item {
+    transition: 0.5s;
 }
 .slide-item img {
     width: 100%;
