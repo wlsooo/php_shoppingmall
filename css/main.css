@@ -5,6 +5,9 @@
     --font-regular: 400;
     --font-bold: 700;
 }
+html, main {
+    width: 100%;
+}
 main {
     font-family: var(--body-font);
     margin-top: 44px;
@@ -60,4 +63,72 @@ main {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .content-container {
+        column-gap: 80px;
+    }
+    .circle-img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .text1 {
+        font-size: 25px;
+    }
+    .text2 {
+        font-size: 12px;
+    }
+    .trend-container {
+        max-width: calc(200px + 200px + 80px);
+        gap: 80px;
+        flex-wrap: wrap;
+        margin: 50px auto;
+    }
+    .trend-text {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .content-container {
+        column-gap: 30px;
+    }
+    .circle-img {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+    }
+    .text1 {
+        font-size: 20px;
+    }
+    .text2 {
+        font-size: 10px;
+    }
+    .more-button > button{
+        width: 56px;
+        height: 21px;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+    .trend-container {
+        max-width: calc(160px + 160px);
+        row-gap: 50px;
+        flex-wrap: wrap;
+        margin: 50px auto;
+    }
+    .trend-img {
+        width: 160px;
+        height: 200px;
+    }
+    .trend-title {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+    .trend-text {
+        width: 160px;
+        font-size: 15px;
+        font-weight: 600;
+    }
 }
